@@ -1,0 +1,11 @@
+*style {
+  font-family: "Saira", sans-serif;
+}
+
+.font-bangla {
+  font-family: "Hind Siliguri", sans-serif;
+}
+.active {
+    background-color: rgb(40, 40, 136);
+    color:  white;
+}
