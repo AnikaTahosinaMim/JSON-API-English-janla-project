@@ -111,6 +111,26 @@
   </div>
 </section>
 
+<!-- loading -->
+<section id="loading" class="flex justify-center items-center hidden">
+  <span class="loading loading-spinner loading-xl"></span>
+
+</section>
+
+<!-- login  -->
+<section class="justify-center items-center  mx-auto">
+  <div class="join">
+  <div>
+    <label class="input validator join-item " >
+     
+      <input id="input-search" type="test" placeholder="Enter value" required />
+    </label>
+    <div class="validator-hint hidden">Enter </div>
+  </div>
+  <button id="btn-search" class="btn btn-primary join-item">Search</button>
+</div>
+</section>
+
 <section id="word-conatiner" class="bg-gray-200 grid grid-cols-3 p-10 gap-4 my-10 w-11/12 mx-auto">
   <div class="text-center col-span-full p-10 rounded-xl shadow-2xl bg-sky-50 space-y-2 font-bangla">
 
@@ -123,8 +143,12 @@
 <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
 <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
   <div class="modal-box">
-    <h3 class="text-lg font-bold">Hello!</h3>
-    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div id="datails-container" class="space-y-4">
+
+
+    </div>
+    <!-- <h3 class="text-lg font-bold">Hello!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p> -->
     <div class="modal-action">
       <form method="dialog">
         <!-- if there is a button in form, it will close the modal -->
